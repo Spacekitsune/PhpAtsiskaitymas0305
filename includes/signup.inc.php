@@ -91,7 +91,7 @@ if (isset($_POST['signup-submit'])) {
               mysqli_stmt_bind_param($stmt, "sss", $username,$email,$hashedPwd );
               mysqli_stmt_execute($stmt);
               //prisijungimas sėkmingas žinutė
-              header("Location: ../signup.php?signup=success");
+              header("Location: ../index.php?signup=success");
               exit();
             }
           }

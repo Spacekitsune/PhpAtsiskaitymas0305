@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover {
+    color: coral;
+}
+
+/*HEADER*/
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    width: 100vw;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.menu-list, .signup-logout {
+    display: inline-block;
+}
+
+.menu-list li {
+    display: inline;
+    padding-right: 50px;
+}
+
+.menu-list a {
+    color: navy;
+}
+
+.button-small {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/*INDEX */
+.login-message {
+    margin: auto;
+}
+/*LOGIN FILE*/
+
+.login-container, .signup-container {
+    padding-right: 100px;
+    border: 1px solid black;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+}
